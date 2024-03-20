@@ -51,8 +51,8 @@ public class main {
         System.out.println(Arrays.toString(a));
         String[] b=s1.split(",");
         System.out.println(Arrays.toString(b));
-        String s2="Xin chào các bạn, tôi là hùng. Chúc mừng bạn đã có được tôi";
-        String[] c=s2.split("\\.|\\,");
+        String s2="Xin chào các bạn,tôi là hùng.Chúc mừng bạn đã có được tôi'hehe";
+        String[] c=s2.split(",");
         System.out.println(Arrays.toString(c));
     }
 }
